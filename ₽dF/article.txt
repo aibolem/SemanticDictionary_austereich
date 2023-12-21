@@ -1,0 +1,13 @@
+	<br>
+   <div>
+		<button id="play"></button> &nbsp;
+		<button id="pause"></button> &nbsp;
+		<button id="stop"></button>
+	</div>
+		<article>
+<CENTER>
+<TABLE WIDTH="75%">
+
+<!--text here, between <article> & </article> -->
+
+</article>
