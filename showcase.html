@@ -441,19 +441,16 @@ function showCharacter(character){
   overflow-y: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-textarea {
-  resize: both;
-}	
 </style>
 </head>
 <body>
 <table><tr><td valign="top">
 
-<canvas id="myCanvas" width="500" height="100" style="border:1px solid #d3d3d3;">
+<canvas id="myCanvas" width="500" height="300" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 <img id="canvasImg"/>
 <br/>
-Stroke Order Input: <input type="text" id="canvasinput" onKeyUp="strokeParser(document.getElementById('canvasinput').value)"/><button id="clearcanvas" onClick="clearCanvas(false)">Clear Canvas</button><button id="downloadImage" onClick="to_image("image/png")">Download Image</button><br/>
+Stroke Order Input: <input type="text" id="canvasinput" onKeyUp="strokeParser(document.getElementById('canvasinput').value)"/><button id="clearcanvas" onClick="clearCanvas(false)">Clear Canvas</button><button id="downloadImage" onClick="to_image()">Download Image</button><br/>
 <br/>
 Tutorial:
 <ul>
