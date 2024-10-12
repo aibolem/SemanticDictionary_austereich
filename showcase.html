@@ -7,7 +7,7 @@
   crossorigin="anonymous"></script>
   <script src="js/tablesorter.js"></script>
   <script src="js/canvas2svg.js"></script>
-  <script>
+  <!--<script>
 function to_image(){
                 var canvas = document.getElementById("myCanvas");
                 document.getElementById("canvasImg").src = canvas.toDataURL();
@@ -432,7 +432,7 @@ function showCharacter(character){
         strokeParser(character)
         document.getElementById('canvasinput').value=character
 }
-</script>
+</script>-->
 <style>
 .table-wrapper-scroll-y {
   display: block;
@@ -446,7 +446,7 @@ function showCharacter(character){
 <body>
 <table><tr><td valign="top">
 
-<canvas id="myCanvas" width="500" height="200" style="border:1px solid #d3d3d3;">
+<canvas id="myCanvas" width="500" height="auto" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 <img id="canvasImg"/>
 <br/>
