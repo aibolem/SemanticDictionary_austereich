@@ -16,7 +16,7 @@
 function to_image(){
                 var canvas = document.getElementById("myCanvas");
                 document.getElementById("canvasImg").src = canvas.toDataURL();
-                Canvas2Image.saveAsPNG(canvas);
+                Canvas2Image.saveAsSVg(canvas);
                 document.getElementById("canvasImg").style.visibility = 'hidden';
 }
 
