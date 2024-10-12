@@ -12,7 +12,7 @@
 function to_image(){
                 var canvas = document.getElementById("myCanvas");
                 document.getElementById("canvasImg").src = canvas.toDataURL();
-                Canvas2Image.saveAsSVG(canvas);
+                Canvas2Image.saveAsPNG(canvas);
                 document.getElementById("canvasImg").style.visibility = 'hidden';
 }
 var curposx=30;
@@ -439,7 +439,8 @@ function showCharacter(character){
   display: block;
   max-height: 500px;
   max-width: 100%;
-  overflow-y: auto;
+  overflow-y: visible;
+  overflow-x: visible;	
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 </style>-->
