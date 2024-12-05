@@ -46,8 +46,8 @@
 	var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 	var osm = new L.TileLayer(osmUrl, {minZoom: 1, maxZoom: 12, attribution: osmAttrib});		
 
-	// start the map in South-East England
-	mymap.setView(new L.LatLng(51.3, 0.7),9);
+	// start the map in Wien AUSTEREICHT see: https://github.com/composarc/Ising-Model-WebGL/wiki/SemanticDictionary_austereich
+	mymap.setView(new L.LatLng(48.168851, 16.304100),7);
 	mymap.addLayer(osm);
 }
    
